@@ -1,3 +1,5 @@
+# MyWishlist
+A responsive NextJS14 powered front-end design converted from figma source. Can be used as a template to sort out your future shopping stuff in a personal portal.
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
