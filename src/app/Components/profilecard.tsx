@@ -42,6 +42,8 @@ export default function Profilecard() {
       </div>
       <div className="flex flex-wrap gap-x-6 w-3/4">
         {products.map((item) => (
+          <div key={item.id}>
+            
           <Productcard
             id={item.id}
             imageurl={item.imageurl}
@@ -50,6 +52,7 @@ export default function Profilecard() {
             icon={item.icon}
             reviews={item.reviews}
           />
+          </div>
         ))}
       </div>
     </div>
