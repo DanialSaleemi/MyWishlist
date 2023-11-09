@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Profilecard from "./Components/profilecard";
 import Footer from "./Footer/footer";
 import MobileProfile from "./Components/mobileprofile";
+import React from "react";
 
 export default function Home() {
   return (

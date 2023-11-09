@@ -6,6 +6,7 @@ import Breadcrumb from './Navbar/breadcrumb'
 import MobileMenu from './Navbar/mobilemenu'
 import Head from 'next/head'
 import Link from 'next/link'
+import React from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,9 +22,6 @@ export default function RootLayout({
 }) {
   return (
     <>
-    <Head>
-      <link rel='icon' href={"/favicon.ico"}/>      
-    </Head>
     <html lang="en">      
       <body             
       className={inter.className}>                           
